@@ -1,5 +1,3 @@
-// const mongoDbPassword = process.env.MONGODB_PASSWORD;
-
 
 module.exports = {
     MONGODB:
