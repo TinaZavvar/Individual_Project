@@ -30,7 +30,7 @@ function Home() {
         )}
         {loading ? (
           <div>
-          <h1>Loading posts..</h1><i class="spinner loading icon"></i>
+          <h1>Loading posts...</h1><i class="spinner loading icon"></i>
           </div>
         ) : (
             <Transition.Group>
