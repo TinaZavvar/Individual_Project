@@ -1,12 +1,13 @@
 {
   "name": "Tina",
-  "version": "1.0.0",
+  "version": "1.8.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "serve": "node index",
-    "start": "nodemon index"
-  },
+    "start": "nodemon index",
+    "build": "react-scripts build"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -25,6 +26,7 @@
     "semantic-ui-react": "^2.1.4"
   },
   "devDependencies": {
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.19.4",
+    "webpack-cli": "^5.0.1"
   }
 }
